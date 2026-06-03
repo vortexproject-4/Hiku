@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    overflow:hidden;
+    background:#111;
+    font-family:Arial,sans-serif;
+}
+
+#game{
+    display:block;
+}
+
+#leaderboard{
+    position:fixed;
+    right:10px;
+    top:10px;
+    width:220px;
+    background:rgba(0,0,0,.8);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+}
+
+#gameOver{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.85);
+    color:white;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#gameOver button{
+    padding:10px 20px;
+    font-size:20px;
+    cursor:pointer;
+}
